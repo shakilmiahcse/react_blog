@@ -13,7 +13,7 @@ const current_year = date.getFullYear();
 ReactDOM.createRoot(document.getElementById('root')).render(
 
 <div>
-  <h1>{myvariable}</h1>
+  <h1 style={{color : "red"}}>{myvariable}</h1>
   <h2>Welcome</h2>
   <p>{description}</p>
   <p>{current_date + "/" + current_manth + "/" + current_year}</p>
